@@ -12,4 +12,8 @@ public class Animal {
 		comName = c;
 	}
 
+	public static void funFact() {
+		System.out.println("The overridden funFact method displays a unique fact about the animal.");
+	}
+
 }
