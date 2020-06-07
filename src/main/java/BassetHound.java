@@ -10,4 +10,9 @@ public class BassetHound extends Dog {
 		super(n, a, w); // Pass it to Dog class, jump one level up and call the one in the Dog class.
 	}
 
+	// OverRIDDEN
+	public void speak() {
+		System.out.println("Howl");
+	}
+
 }
