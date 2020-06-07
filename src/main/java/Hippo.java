@@ -8,11 +8,6 @@ public class Hippo extends Wild {
 		super();
 	}
 
-	public Hippo(String sciName, String comName) {
-		this.sciName = sciName;
-		this.comName = comName;
-	}
-
 	public double getWeight() {
 		return weight;
 	}

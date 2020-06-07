@@ -15,9 +15,6 @@ public class AnimalTester {
 		System.out.println("Hound 2");
 		System.out.println(hound.toString());
 
-		Hippo h1 = new Hippo();
-		Hippo h2 = new Hippo("Hippopotamous amphibious", "Hippopotamous");
-
 		Animal.funFact();
 		Hippo.funFact();
 		Giraffe.funFact();

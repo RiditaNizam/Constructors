@@ -1,15 +1,27 @@
 public class Animal {
-	String sciName;
-	String comName;
+	private String sciName;
+	private String comName;
 
 	public Animal() {
 		sciName = "Animalus Genericus";
 		comName = "Generic Animal";
 	}
 
-	public Animal(String s, String c) {
-		sciName = s;
-		comName = c;
+	public Animal(String sN, String cN) {
+		sciName = sN;
+		comName = cN;
+	}
+
+	public String getSciName() {
+		return sciName;
+	}
+
+	public String getComName() {
+		return comName;
+	}
+
+	public String toString() {
+		return " " + sciName + " " + comName;
 	}
 
 	public static void funFact() {
